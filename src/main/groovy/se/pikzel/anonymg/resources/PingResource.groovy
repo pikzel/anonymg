@@ -13,6 +13,6 @@ class PingResource {
     @GET
     @Timed
     static pong() {
-        return {"\"answer\": \"pong\" "}
+        return { "\"answer\": \"pong\" " }
     }
 }
